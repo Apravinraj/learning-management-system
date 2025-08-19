@@ -4,7 +4,7 @@ A full-stack Learning Management System with role-based access for Students and 
 This project demonstrates authentication, dashboards, CRUD operations, analytics, and data visualization with responsive design.
 
 ## ✨ Features
-👨‍🎓 Student Dashboard
+### 👨‍🎓 Student Dashboard
 
 Mock Login for students.
 
@@ -18,7 +18,7 @@ Deadlines Page – Upcoming assignment deadlines with due dates & priority level
 
 Quiz History Page – Quiz grades shown in Bar Graph + Tabular format.
 
-## 🛠️ Admin Dashboard
+### 🛠️ Admin Dashboard
 
 Mock Login for admin.
 
