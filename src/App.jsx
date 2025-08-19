@@ -2,19 +2,19 @@ import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-route
 import { useState, useContext } from "react";
 import { RoleContext } from "./context/RoleContext";
 import Login from "./pages/Login";
-import StudentHome from "./components/dashboard/StudentHome";
+import StudentHome from "./pages/student/StudentHome";
 import CourseDetails from "./pages/CourseDetails";
 import FloatingChatButton from "./components/chatbot/FloatingChatButton";
 import ChatbotModal from "./components/chatbot/ChatbotModal";
 import StudentNavbar from "./components/navbar/StudentNavbar";
 import AdminNavbar from "./components/navbar/AdminNavbar";
-import StudentProgress from "./components/student/StudentProgress";
-import StudentOverview from "./components/student/StudentOverview";
-import StudentDeadlines from "./components/student/StudentDeadlines";
-import StudentQuizHistory from "./components/student/StudentQuixHistory";
-import AdminAnalytics from "./components/dashboard/AdminAnalytics";
-import CourseManagement from "./components/dashboard/CourseManagement";
-import UserManagement from "./components/dashboard/userManagement";
+import StudentProgress from "./pages/student/StudentProgress";
+import StudentOverview from "./pages/student/StudentOverview";
+import StudentDeadlines from "./pages/student/StudentDeadlines";
+import StudentQuizHistory from "./pages/student/StudentQuixHistory";
+import AdminAnalytics from "./pages/admin/AdminAnalytics";
+import CourseManagement from "./pages/admin/CourseManagement";
+import UserManagement from "./pages/admin/UserManagement";
 
 
 function App() {

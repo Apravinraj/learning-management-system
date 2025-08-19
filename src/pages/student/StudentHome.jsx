@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import CourseCard from "../CourseCard";
+import CourseCard from "../../components/CourseCard";
 
 const StudentHome = () => {
   const navigate = useNavigate();
