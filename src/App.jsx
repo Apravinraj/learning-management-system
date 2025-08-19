@@ -11,7 +11,7 @@ import AdminNavbar from "./components/navbar/AdminNavbar";
 import StudentProgress from "./pages/student/StudentProgress";
 import StudentOverview from "./pages/student/StudentOverview";
 import StudentDeadlines from "./pages/student/StudentDeadlines";
-import StudentQuizHistory from "./pages/student/StudentQuixHistory";
+import StudentQuizHistory from "./pages/student/StudentQuizHistory";
 import AdminAnalytics from "./pages/admin/AdminAnalytics";
 import CourseManagement from "./pages/admin/CourseManagement";
 import UserManagement from "./pages/admin/UserManagement";
