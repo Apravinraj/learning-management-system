@@ -1,12 +1,69 @@
-# React + Vite
+## 📚 Learning Management System (LMS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Learning Management System with role-based access for Students and Admins.
+This project demonstrates authentication, dashboards, CRUD operations, analytics, and data visualization with responsive design.
 
-Currently, two official plugins are available:
+## ✨ Features
+👨‍🎓 Student Dashboard
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mock Login for students.
 
-## Expanding the ESLint configuration
+Home Page – View all enrolled courses.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Overview Page – Course completion % and grade distribution (Pie Chart).
+
+Progress Page – Track progress of each course individually.
+
+Deadlines Page – Upcoming assignment deadlines with due dates & priority levels.
+
+Quiz History Page – Quiz grades shown in Bar Graph + Tabular format.
+
+## 🛠️ Admin Dashboard
+
+Mock Login for admin.
+
+User Management – Add, edit, delete, and search users.
+
+Course Management – Add, edit, and delete courses.
+
+Analytics Page – Track course enrollment & completion rates (Bar Graph).
+
+## 💬 Chatbot
+
+Role-aware chatbot:
+
+Answers student-related queries (courses, progress, quizzes).
+
+Answers admin-related queries (users, courses, analytics).
+
+## 📱 Responsive Design
+
+Works seamlessly on desktop, tablet, and mobile screens.
+
+## 🛠️ Tech Stack
+
+Frontend: React, React Router, Chart.js, Material UI
+
+State Management: React Hooks / Context API
+
+Authentication: Mock Login
+
+Other: Responsive CSS, Modular Components
+
+## 🚀 Getting Started
+
+### Clone the repo
+
+```git clone https://github.com/your-username/learning-management-system.git
+cd learning-management-system
+```
+
+
+### Install dependencies
+```
+npm install
+```
+### Start the development server
+```
+npm start
+```
